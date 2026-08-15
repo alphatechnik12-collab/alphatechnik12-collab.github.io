@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpha Technik – Elektrotechnik & Smart Home</title>
+  <meta name="description" content="Alpha Technik – Elektrotechnik, Smart Home, Sanierung und moderne Gebäudetechnik.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:#172033;background:#f7f8fa;line-height:1.6}
+    header{background:#111827;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+    .logo{font-size:24px;font-weight:800;letter-spacing:.5px}
+    .logo span{color:#f59e0b}
+    nav a{color:white;text-decoration:none;margin-left:22px;font-size:14px}
+    .hero{padding:90px 7%;background:linear-gradient(135deg,#111827,#263449);color:white}
+    .hero h1{font-size:clamp(38px,7vw,68px);line-height:1.05;max-width:800px;margin-bottom:22px}
+    .hero h1 span{color:#f59e0b}
+    .hero p{font-size:19px;max-width:650px;color:#d7dce5;margin-bottom:30px}
+    .btn{display:inline-block;background:#f59e0b;color:#111827;padding:14px 24px;border-radius:9px;text-decoration:none;font-weight:700}
+    section{padding:70px 7%}
+    .title{text-align:center;margin-bottom:42px}
+    .title h2{font-size:34px;margin-bottom:8px}
+    .title p{color:#667085}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:white;border-radius:14px;padding:28px;box-shadow:0 8px 25px rgba(0,0,0,.06)}
+    .icon{font-size:32px;margin-bottom:12px}
+    .card h3{margin-bottom:8px}
+    .card p{color:#667085}
+    .about{background:white}
+    .contact{background:#111827;color:white;text-align:center}
+    .contact p{color:#d7dce5;margin:8px auto 24px;max-width:650px}
+    footer{background:#0b1220;color:#9ca3af;text-align:center;padding:22px;font-size:14px}
+    @media(max-width:700px){
+      header{padding:15px 5%}
+      nav{display:none}
+      .hero,section{padding-left:5%;padding-right:5%}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ALPHA <span>TECHNIK</span></div>
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#ueber-uns">Über uns</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Moderne <span>Elektrotechnik</span> für Ihr Zuhause.</h1>
+    <p>Elektroinstallation, Gebäudetechnik, Smart Home und Sanierung – zuverlässig, modern und sauber umgesetzt.</p>
+    <a class="btn" href="#kontakt">Kontakt aufnehmen</a>
+  </section>
+
+  <section id="leistungen">
+    <div class="title">
+      <h2>Unsere Leistungen</h2>
+      <p>Elektrotechnik aus einer Hand.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Elektroinstallation</h3>
+        <p>Neuinstallationen, Erweiterungen, Steckdosen, Beleuchtung und Verteilungen.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏠</div>
+        <h3>Smart Home</h3>
+        <p>Intelligente Gebäudetechnik mit modernen Lösungen für mehr Komfort und Kontrolle.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔧</div>
+        <h3>Sanierung</h3>
+        <p>Elektrische Sanierungen und Modernisierung von bestehenden Gebäuden.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💡</div>
+        <h3>Beleuchtung</h3>
+        <p>Moderne Innen- und Außenbeleuchtung sowie LED-Lösungen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="ueber-uns">
+    <div class="title">
+      <h2>Alpha Technik</h2>
+      <p>Technik, auf die Sie sich verlassen können.</p>
+    </div>
+    <div style="max-width:760px;margin:auto;text-align:center;color:#667085">
+      <p>Wir stehen für saubere Arbeit, moderne Technik und zuverlässige Lösungen rund um die Elektrotechnik und Gebäudetechnik.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt">
+    <div class="title">
+      <h2>Kontakt</h2>
+      <p>Sie haben ein Projekt? Sprechen Sie uns an.</p>
+    </div>
+    <p><strong>Alpha Technik</strong><br>
+      Elektrotechnik · Smart Home · Gebäudetechnik
+    </p>
+    <a class="btn" href="mailto:info@alphatechnik.de">E-Mail schreiben</a>
+  </section>
+</main>
+
+<footer>
+  © 2026 Alpha Technik · Alle Rechte vorbehalten
+</footer>
+
+</body>
+</html>
